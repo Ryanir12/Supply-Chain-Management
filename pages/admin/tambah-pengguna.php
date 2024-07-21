@@ -66,9 +66,9 @@
                                             <label for="hak_akses">hak_akses</label>
                                             <select name="hak_akses" id="hak_akses" class="custom-select">
                                                 <option selected disabled value="">Pilih hak_akses :</option>
-                                                <option value="manajer">Pimpinan</option>
-                                                <option value="kepala gudang">Gudang</option>
-                                                <option value="pemasaran">Supplier</option>
+                                                <option value="pimpinan">Pimpinan</option>
+                                                <option value="gudang">Gudang</option>
+                                                <option value="supplier">Supplier</option>
                                                 <option value="admin">Admin</option>
                                             </select>
                                         </div>
