@@ -1,10 +1,10 @@
 <!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-danger sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index-supplier.php">
-        <div class="sidebar-brand-text mx-3">Waber Sport</div>
-    </a>
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index-supplier.php">
+            <div class="sidebar-brand-text mx-3">Waber Sport</div>
+        </a>
 
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
