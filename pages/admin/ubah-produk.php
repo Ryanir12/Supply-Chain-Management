@@ -34,7 +34,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Ubah Produk</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Ubah Barang</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -57,11 +57,11 @@
                                                     <input type="hidden" name="id_produk" id="id_produk" value="<?php echo $d['id_produk']; ?>" required />
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="nama_produk">Nama Produk</label>
+                                                    <label for="nama_produk">Nama Barang</label>
                                                     <input type="text" name="nama_produk" id="nama_produk" value="<?php echo $d['nama_produk']; ?>" class="form-control" required />
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="satuan_produk">Satuan Produk</label>
+                                                    <label for="satuan_produk">Satuan Barang</label>
                                                     <input type="text" name="satuan_produk" id="satuan_produk" value="<?php echo $d['satuan_produk']; ?>" class="form-control" required />
                                                 </div>
                                                 <div class="form-group">

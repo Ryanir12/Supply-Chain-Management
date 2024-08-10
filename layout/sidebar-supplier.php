@@ -2,9 +2,9 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index-supplier.php">
-            <div class="sidebar-brand-text mx-3">Waber Sport</div>
-        </a>
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index-supplier.php">
+        <div class="sidebar-brand-text mx-3">Waber Sport</div>
+    </a>
 
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
@@ -35,7 +35,11 @@
             <span>Laporan Penjualan</span></a>
     </li>
     <hr class="sidebar-divider my-0">
-
+    <li class="nav-item">
+        <a class="nav-link" href="../../logout.php" data-toggle="modal" data-target="#logoutModal">
+            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+            <span>Logout</span></a>
+    </li>
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">

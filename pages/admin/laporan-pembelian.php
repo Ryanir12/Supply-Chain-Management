@@ -235,7 +235,7 @@ foreach ($transaksiByTanggal as $data) {
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Laporan Transaksi Pembelian</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Laporan Barang Masuk</h1>
                     </div>
 
                     <!-- Filter Form -->
@@ -297,7 +297,7 @@ foreach ($transaksiByTanggal as $data) {
                         <hr>
                         <div style="text-align: center;">
                             <h2 style="color: black; font-weight: bold;">
-                                Laporan Transaksi Pembelian
+                                Laporan Barang Masuk
                             </h2>
                             <!-- Menampilkan informasi tambahan laporan -->
 
@@ -315,7 +315,7 @@ foreach ($transaksiByTanggal as $data) {
                                     <tr>
                                         <th>Tanggal</th>
                                         <th>Supplier</th>
-                                        <th>Nama Produk</th>
+                                        <th>Nama Barang</th>
                                         <th>Harga Satuan</th>
                                         <th>Jumlah</th>
                                         <th>Total Harga</th>

@@ -36,7 +36,7 @@ if (!$result_detail) {
     <style>
         .remove-row {
             cursor: pointer;
-            color: red;
+
         }
 
         .remove-row:hover {
@@ -74,7 +74,7 @@ if (!$result_detail) {
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Ubah Transaksi Pembelian</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Ubah Data Barang Masuk</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -115,7 +115,7 @@ if (!$result_detail) {
                                         <table id="detail-table" class="table">
                                             <thead>
                                                 <tr>
-                                                    <th>Nama Produk</th>
+                                                    <th>Nama Barang</th>
                                                     <th>Jumlah</th>
                                                     <th>Harga Satuan</th>
                                                     <th>Aksi</th>
@@ -148,7 +148,7 @@ if (!$result_detail) {
                                                         </td>
                                                         <td><input type="number" name="jumlah_beli[]" class="form-control" value="<?php echo htmlspecialchars($jumlah_beli, ENT_QUOTES, 'UTF-8'); ?>" required></td>
                                                         <td><input type="number" name="harga_satuan[]" class="form-control" value="<?php echo htmlspecialchars($harga_satuan, ENT_QUOTES, 'UTF-8'); ?>" readonly></td>
-                                                        <td><button type="button" class="btn btn-danger remove-row">Hapus</button></td>
+                                                        <td><button type="button" class="btn btn-danger">Hapus</button></td>
                                                         <input type="hidden" name="id_detail_transaksi[]" value="<?php echo htmlspecialchars($detail['id_detail_transaksi'], ENT_QUOTES, 'UTF-8'); ?>">
                                                     </tr>
                                                 <?php
@@ -158,7 +158,7 @@ if (!$result_detail) {
                                         </table>
 
                                         <div class="form-group">
-                                            <button type="button" id="add-row" class="btn btn-primary">Tambah Baris</button>
+                                            <button type="button" id="add-row" class="btn btn-success">Tambah Baris</button>
                                             <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
                                         </div>
                                     </form>

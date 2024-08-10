@@ -40,28 +40,28 @@
     <li class="nav-item">
         <a class="nav-link" href="../admin/kelola-produk.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Kelola Produk</span></a>
+            <span>Kelola Barang</span></a>
     </li>
 
     <li class="nav-item">
         <a class="nav-link" href="../admin/kelola-transaksi-penjualan.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Transaksi Penjualan</span></a>
+            <span>Barang Keluar</span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="../admin/kelola-transaksi-pembelian.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Transaksi Pembelian</span></a>
+            <span>Barang Masuk</span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="../admin/laporan-penjualan.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Laporan Penjualan</span></a>
+            <span>Laporan Barang Keluar</span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="../admin/laporan-pembelian.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Laporan Pembelian</span></a>
+            <span>Laporan Barang Masuk</span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="../admin/laporan-stok-barang.php">
@@ -69,7 +69,11 @@
             <span>Laporan Stok Barang</span></a>
     </li>
     <hr class="sidebar-divider my-0">
-
+    <li class="nav-item">
+        <a class="nav-link" href="../../logout.php" data-toggle="modal" data-target="#logoutModal">
+            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+            <span>Logout</span></a>
+    </li>
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">

@@ -7,7 +7,7 @@
 
 <body id="page-top">
 
-<?php
+    <?php
     session_start();
 
     //cek apakah yang mengakses halaman ini sudah login
@@ -67,14 +67,14 @@
                                             $no = 1;
                                             $data = mysqli_query($koneksi, "SELECT * FROM user");
                                             if (!$data) {
-                                                ?>
+                                            ?>
                                                 <tr>
                                                     <td colspan="7" class="text-center font-weight-bold">Data Kosong</td>
                                                 </tr>
                                                 <?php
-                                                } else {
-                                                    while ($item = mysqli_fetch_array($data)) {
-                                                        ?>
+                                            } else {
+                                                while ($item = mysqli_fetch_array($data)) {
+                                                ?>
                                                     <tr>
                                                         <td class="text-center align-middle"><?php echo $no++; ?></td>
                                                         <td class="align-middle"><?php echo $item['nama']; ?></td>
@@ -128,9 +128,9 @@
 
     <?php include '../../layout/js.php' ?>
     <script>
-    $(document).ready(function() {
-        $('#Table').DataTable();
-    } );
+        $(document).ready(function() {
+            $('#Table').DataTable();
+        });
     </script>
 
 </body>

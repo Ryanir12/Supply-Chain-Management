@@ -47,7 +47,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Tambah Transaksi Penjualan</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Tambah Data Barang Keluar</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -61,17 +61,17 @@
                                             <input type="text" name="nama_customer" id="nama_customer" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label for="tanggal">Tanggal Penjualan</label>
+                                            <label for="tanggal">Tanggal</label>
                                             <input type="date" name="tanggal" id="tanggal" class="form-control" required>
                                         </div>
                                         <hr>
-                                        <h4>Detail Penjualan</h4>
+                                        <h4>Detail Barang</h4>
                                         <div id="detail-penjualan-container">
                                             <div class="detail-penjualan">
                                                 <div class="form-group">
-                                                    <label for="produk">Produk</label>
+                                                    <label for="produk">Barang</label>
                                                     <select name="id_produk[]" class="form-control produk-select" required>
-                                                        <option value="">Pilih Produk</option>
+                                                        <option value="">Pilih Barang</option>
                                                         <?php while ($produk = mysqli_fetch_assoc($produkResult)) : ?>
                                                             <option value="<?php echo $produk['id_produk']; ?>" data-harga="<?php echo $produk['harga']; ?>"><?php echo $produk['nama_produk']; ?></option>
                                                         <?php endwhile; ?>
@@ -126,9 +126,9 @@
                     var detailHTML = `
                         <div class="detail-penjualan">
                             <div class="form-group">
-                                <label for="produk">Produk</label>
+                                <label for="produk">Barang</label>
                                 <select name="id_produk[]" class="form-control produk-select" required>
-                                    <option value="">Pilih Produk</option>
+                                    <option value="">Pilih Barang</option>
                                     <?php
                                     mysqli_data_seek($produkResult, 0); // Reset produk result pointer to the beginning
                                     while ($produk = mysqli_fetch_assoc($produkResult)) : ?>

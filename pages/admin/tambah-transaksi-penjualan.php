@@ -47,7 +47,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Tambah Transaksi Penjualan</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Tambah Data Barang Keluar</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -61,11 +61,11 @@
                                             <input type="text" name="nama_customer" id="nama_customer" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label for="tanggal">Tanggal Penjualan</label>
+                                            <label for="tanggal">Tanggal</label>
                                             <input type="date" name="tanggal" id="tanggal" class="form-control" required>
                                         </div>
                                         <hr>
-                                        <h4>Detail Penjualan</h4>
+                                        <h4>Detail Barang</h4>
                                         <div id="detail-penjualan-container">
                                             <div class="detail-penjualan">
                                                 <div class="form-group">
@@ -78,7 +78,7 @@
                                                     </select>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="jumlah_beli">Jumlah Beli</label>
+                                                    <label for="jumlah_beli">Jumlah</label>
                                                     <input type="number" name="jumlah_beli[]" class="form-control jumlah-beli-input" required>
                                                 </div>
                                                 <div class="form-group">

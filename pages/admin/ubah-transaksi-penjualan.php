@@ -49,7 +49,7 @@ if (!$produkResult) {
     <style>
         .remove-row {
             cursor: pointer;
-            color: red;
+
         }
 
         .remove-row:hover {
@@ -87,7 +87,7 @@ if (!$produkResult) {
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Ubah Transaksi Penjualan</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Ubah Data Barang Keluar</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -100,7 +100,7 @@ if (!$produkResult) {
 
                                         <!-- Customer dan tanggal -->
                                         <div class="form-group">
-                                            <label for="id_customer">Customer</label>
+                                            <label for="id_customer">Customer (opsional)</label>
                                             <select name="id_customer" id="id_customer" class="form-control">
                                                 <option value="">Pilih Customer</option>
                                                 <?php
@@ -168,7 +168,7 @@ if (!$produkResult) {
                                         </table>
 
                                         <div class="form-group">
-                                            <button type="button" id="add-row" class="btn btn-primary">Tambah Baris</button>
+                                            <button type="button" id="add-row" class="btn btn-success">Tambah Baris</button>
                                             <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
                                         </div>
                                     </form>

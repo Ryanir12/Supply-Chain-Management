@@ -66,7 +66,7 @@
                         $total_stok = $row['total_stok'];
 
                         // Ambang batas untuk stok barang menipis
-                        $batas_stok = 10;
+                        $batas_stok = 3;
 
                         // Query untuk mendapatkan produk dengan stok menipis
                         $sql_menipis = mysqli_query($koneksi, "SELECT nama_produk, stok FROM produk WHERE stok < $batas_stok");
@@ -112,7 +112,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Produk</div>
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Jumlah Barang</div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
                                                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"><?php echo $produk; ?></div>
@@ -133,7 +133,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1">Total Stok</div>
+                                            <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1">Total Keseluruhan Stok</div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
                                                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"><?php echo $total_stok; ?></div>
@@ -157,7 +157,7 @@
                                         <table class="table table-hover table-bordered">
                                             <thead class="thead-light">
                                                 <tr>
-                                                    <th>Nama Produk</th>
+                                                    <th>Nama Barang</th>
                                                     <th>Stok</th>
                                                 </tr>
                                             </thead>

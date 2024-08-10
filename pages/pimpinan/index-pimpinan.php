@@ -66,45 +66,13 @@
                         $total_stok = $row['total_stok'];
 
                         // Ambang batas untuk stok barang menipis
-                        $batas_stok = 10;
+                        $batas_stok = 3;
 
                         // Query untuk mendapatkan produk dengan stok menipis
                         $sql_menipis = mysqli_query($koneksi, "SELECT nama_produk, stok FROM produk WHERE stok < $batas_stok");
                         ?>
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Pendapatan</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Rp. 100.000.000.000</div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total Pengeluaran</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Rp. 1000</div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
 
 
@@ -114,7 +82,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Produk</div>
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Jumlah Barang</div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
                                                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"><?php echo $produk; ?></div>
@@ -149,39 +117,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Supplier</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $supplier; ?></div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <!-- <i class="fas fa-dollar-sign fa-2x text-gray-300"></i> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">User</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $user; ?></div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <!-- <i class="fas fa-dollar-sign fa-2x text-gray-300"></i> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+
                         <!-- Tabel untuk menampilkan stok barang menipis pada dasbor -->
                         <div class="col-xl-12 col-md-12 mb-4">
                             <div class="card border-left-warning shadow h-100 py-2">
@@ -191,7 +129,7 @@
                                         <table class="table table-hover table-bordered">
                                             <thead class="thead-light">
                                                 <tr>
-                                                    <th>Nama Produk</th>
+                                                    <th>Nama Barang</th>
                                                     <th>Stok</th>
                                                 </tr>
                                             </thead>

@@ -33,7 +33,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Kelola Produk</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Kelola Barang</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -50,7 +50,7 @@
                                         <thead class="thead-light text-center">
                                             <tr>
                                                 <th width=6%>No</th>
-                                                <th>Nama Produk</th>
+                                                <th>Nama Barang</th>
                                                 <th>Satuan</th>
                                                 <th>Harga</th>
                                                 <th>Stok</th> <!-- Tambahkan kolom Stok -->

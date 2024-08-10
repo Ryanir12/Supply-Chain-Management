@@ -155,7 +155,7 @@ mysqli_free_result($result);
                     </div>
 
                     <div class="btn-export">
-                        <button id="export-btn" class="btn btn-primary btn-export">Cetak</button>
+                        <button id="export-btn" class="btn btn-success btn-export">Cetak</button>
                     </div>
 
                     <div id="report-section">
@@ -174,9 +174,9 @@ mysqli_free_result($result);
                         <table id="report-table">
                             <thead>
                                 <tr>
-                                    <th>ID Produk</th>
-                                    <th>Nama Produk</th>
-                                    <th>Satuan Produk</th>
+                                    <th>ID Barang</th>
+                                    <th>Nama Barang</th>
+                                    <th>Satuan Barang</th>
                                     <th>Harga</th>
                                     <th>Stok</th>
                                 </tr>

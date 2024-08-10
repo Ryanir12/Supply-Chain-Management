@@ -25,30 +25,15 @@
     </div>
 
     <li class="nav-item">
-        <a class="nav-link" href="../pimpinan/kelola-pengguna.php">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Kelola Pengguna</span></a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="../pimpinan/kelola-supplier.php">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Kelola Supplier</span></a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="../pimpinan/kelola-produk.php">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Data Produk</span></a>
-    </li>
-    <li class="nav-item">
         <a class="nav-link" href="../pimpinan/laporan-penjualan.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Laporan Penjualan</span></a>
+            <span>Laporan Barang Keluar</span></a>
     </li>
 
     <li class="nav-item">
         <a class="nav-link" href="../pimpinan/laporan-pembelian.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Laporan Pembelian</span></a>
+            <span>Laporan Barang Masuk</span></a>
     </li>
 
     <li class="nav-item">
@@ -58,7 +43,11 @@
     </li>
 
     <hr class="sidebar-divider my-0">
-
+    <li class="nav-item">
+        <a class="nav-link" href="../../logout.php" data-toggle="modal" data-target="#logoutModal">
+            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+            <span>Logout</span></a>
+    </li>
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">

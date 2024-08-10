@@ -85,7 +85,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Kelola Transaksi Pembelian</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Kelola Data Barang Masuk</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -93,7 +93,7 @@
                         <div class="col">
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <a href="tambah-transaksi-pembelian.php" class="btn btn-sm btn-primary">Tambah Transaksi</a>
+                                    <a href="tambah-transaksi-pembelian.php" class="btn btn-sm btn-primary">Tambah Data</a>
                                 </div>
                                 <div class="card-body">
                                     <table class="table table-responsive-lg table-hover table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -101,10 +101,10 @@
                                             <tr>
                                                 <th>No</th>
                                                 <th>Nama Supplier</th>
-                                                <th>Detail Pembelian</th>
-                                                <th>Total Harga Pembelian</th>
-                                                <th>Tanggal Pembelian</th>
-                                                <th>Aksi</th>
+                                                <th>Detail Barang</th>
+                                                <th>Total Harga</th>
+                                                <th>Tanggal</th>
+
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -120,10 +120,7 @@
                                                     </td>
                                                     <td><?php echo number_format($item['total_harga'], 0, ',', '.'); ?></td>
                                                     <td><?php echo $item['tanggal']; ?></td>
-                                                    <td>
-                                                        <a href="ubah-transaksi-pembelian.php?id=<?php echo $item['id_transaksi']; ?>" class="btn btn-info btn-sm">Ubah</a>
-                                                        
-                                                    </td>
+
                                                 </tr>
                                                 <tr id="modal-<?php echo $item['id_transaksi']; ?>" class="modal">
                                                     <td colspan="6">

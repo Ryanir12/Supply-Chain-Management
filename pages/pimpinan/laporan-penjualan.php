@@ -220,7 +220,7 @@ foreach ($transaksiByTanggal as $data) {
                 <div class="container-fluid">
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Laporan Transaksi Penjualan</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Laporan Barang Keluar</h1>
                     </div>
 
                     <!-- Filter Form -->
@@ -268,7 +268,7 @@ foreach ($transaksiByTanggal as $data) {
 
 
                     <div class="btn-export">
-                        <button id="export-btn" class="btn btn-primary btn-export">Cetak</button>
+                        <button id="export-btn" class="btn btn-success btn-export">Cetak</button>
                     </div>
                     <div id="report-section">
                         <!-- Export Button -->
@@ -281,7 +281,7 @@ foreach ($transaksiByTanggal as $data) {
                                 <p style="color: black; font-weight: bold;">0813-6345-7987</p>
                             </div>
                         </div>
-                        <h2 class="text-center font-bold text-black">Laporan Transaksi Penjualan</h2>
+                        <h2 class="text-center font-bold text-black">Laporan Barang Keluar</h2>
                         <!-- Menampilkan informasi tambahan laporan -->
 
                         <p class="text-center font-bold text-black">
@@ -298,7 +298,7 @@ foreach ($transaksiByTanggal as $data) {
                                 <tr>
                                     <th>Tanggal</th>
                                     <th>Customer</th>
-                                    <th>Nama Produk</th>
+                                    <th>Nama Barang</th>
                                     <th>Harga Satuan</th>
                                     <th>Jumlah</th>
                                     <th>Total Harga</th>
